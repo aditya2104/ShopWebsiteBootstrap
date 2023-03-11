@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.heart{
+    position: sticky;
+    font-size: 50px;
+       
+}
+.heart i{
+    padding-left: 15px;
+    padding-top: 15000px;
+
+}
+
+img{
+    pointer-events: none;
+}
+
+body{
+    font-family: sans-serif !important;
+}
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#5c7e83,#beebe9);
+    padding: 0 !important;
+}
+
+/*--------navbar-brand-----------*/
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+
+}
+
+.navbar-brand i{
+    color: #01220e;
+    font-size: 30px;
+    padding: 5px 5px;
+    
+    
+    
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li  a {
+    color: #000000 !important;
+    font-weight: 500;
+    float: right;
+    text-align: left  ;
+
+}
+
+.navbar-toggler{
+    
+    outline: none !important;
+}
+
+/* --------------banner ------------------*/
+#banner{
+    background-image: linear-gradient(to right,#5c7e83, #beebe9);
+    color: #000000;
+    padding-top: 1%;
+}
+
+.promo-title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 90px;
+}
+
+.bag-img{
+    width: 200px;
+    margin: 0 10px;
+    
+}
+
+.banner-img{
+    height: auto;
+    
+}
+
+.bottom-img{
+    width: 100%;
+    
+}
