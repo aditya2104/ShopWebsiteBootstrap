@@ -95,7 +95,8 @@ body{
 
 .bottom-img{
     width: 100%;
-    
+    height: 10%;
+   
 }
 
 .back-img{
@@ -110,6 +111,7 @@ iframe{
 }
 /*----------------Items-----------------------*/
 .col-md-12 {
+    
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -133,3 +135,34 @@ iframe{
     
     
 }
+/*-------------------top toolbar---------------------------*/
+.topbar-container{
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(to right,#5c7e83, #beebe9);
+    border: 0.1px dotted;
+    border-color: transparent;
+    
+    
+    
+}
+
+
+.topbar-container li img{
+    height: 40px;
+}
+
+.topbar-container li{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 100px;
+    
+}
+
+.topbar-container a{
+    text-decoration: none;
+    color: #000000;
+    
+    
+}
+
