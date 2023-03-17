@@ -32,7 +32,7 @@ body{
 }
 
 .navbar{
-    background-image: linear-gradient(to right,#5c7e83,#beebe9);
+    background-image: linear-gradient(to right,#ffffff, #e9fcfb);
     padding: 0 !important;
 }
 
@@ -71,7 +71,7 @@ body{
 
 /* --------------banner ------------------*/
 #banner{
-    background-image: linear-gradient(to right,#5c7e83, #beebe9);
+    background-image: linear-gradient(to right,#ffffff, #e9fcfb);
     color: #000000;
     padding-top: 1%;
 }
@@ -139,7 +139,7 @@ iframe{
 .topbar-container{
     display: block;
     text-align: center;
-    background-image: linear-gradient(to right,#5c7e83, #beebe9);
+    background-image: linear-gradient(to right,#ffffff, #e9fcfb);
     border: 0.1px dotted;
     border-color: transparent;
     
