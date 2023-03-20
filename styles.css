@@ -41,6 +41,7 @@ body{
 }
 
 /*--------navbar-brand-----------*/
+
 .navbar-brand img{
     height: 40px;
     padding-left: 20px;
@@ -55,7 +56,10 @@ body{
     
     
 }
-
+.avbar-nav ul {
+    float: right;
+    position: relative;
+}
 .navbar-nav li {
     padding: 0 10px;
 }
