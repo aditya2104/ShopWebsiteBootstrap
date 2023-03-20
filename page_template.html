@@ -11,6 +11,7 @@
 
   gtag('config', 'G-PY1S752846');
 </script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <meta name="description" content="Discover amazing deals on Amazon products with our Top Deals website. We curate the best products across various categories, including electronics, home and kitchen, fashion, and more. Shop with confidence knowing that you're getting the best prices on the products."/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,37 +30,21 @@
 </head>
 
 <body>
-  <section id="nav-bar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <!-- <span class="heart"></span><i class="fa fa-shopping-basket"aria-hidden="true"></i>Top Deals  -->
-          <img id="logo" src="imgs/favicon.png" alt="logo">Top Deals Today</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html" hidden>Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html" hidden>Deals</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.blog2.aditya-vaddiraju.page/" target="_blank">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" hidden>Testimonies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html" hidden>About Us</a>
-            </li>
-          </ul><br>
-        </div>
-      </div>
-    </nav>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+ 
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+  </script>
+  <!--end of Navigation bar-->
     <section id="category">
         <div class="topbar-container">
           <ul>
